@@ -1,0 +1,38 @@
+##ushtrim
+
+<pre>
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Globalization;
+
+namespace Datausht2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        CultureInfo culture = CultureInfo.CreateSpecificCulture("fr-FR");
+        DateTimeFormatInfo ifp = culture.DateTimeFormat;
+        ifp.DateSeparator = ".";
+            DateTime date;
+            Console.WriteLine("Enter the first date:");
+            string datet = Convert.ToString(Console.ReadLine());
+         date=  DateTime.Parse(datet,ifp);
+
+         DateTime date1;
+         Console.WriteLine("Enter the second date:");
+            string dates = Convert.ToString(Console.ReadLine());
+             date1 =   DateTime.Parse(dates,ifp);
+            
+          TimeSpan dist = date1.Subtract(date);
+          
+          
+            Console.WriteLine("Distance: {0}  dite", dist.TotalDays);
+            Console.ReadLine(); 
+        }
+    }
+}
+</pre>
