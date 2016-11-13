@@ -18,7 +18,7 @@ namespace usht3micro
             rep(str2);
             Console.ReadLine();
         }
-        public static void rep(string[] word)
+        public static void rep(string[] fjale)
         {
             string[] strArry1 = new string[] { "C#", "Microsoft", "CLR" };
             string[] strArry2 = new string[] { "**", "*********", "***" };
@@ -26,16 +26,16 @@ namespace usht3micro
             {
                 for (int i = 0; i < word.Count(); i++)
                 {
-                    if (word[i] == strArry1[j])
+                    if (fjale[i] == strArry1[j])
                     {
-                        word[i] = strArry2[j];
+                        fjale[i] = strArry2[j];
                     }
                     
                 }
             }
-            for (int i = 0; i < word.Count(); i++)
+            for (int i = 0; i < fjale.Count(); i++)
             {
-                Console.Write(word[i] + " ");
+                Console.Write(fjale[i] + " ");
 
             } 
         }
