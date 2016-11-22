@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ushtrim", "ushtrim\ushtrim.csproj", "{BCA34493-72F8-452A-8711-339ACF317E1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UshtrimTest", "UshtrimTest\UshtrimTest.csproj", "{91E4D01A-6388-4B02-A8DC-ADDA7810F492}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ushtrim_NUNIT_TEST", "ushtrim_NUNIT_TEST\ushtrim_NUNIT_TEST.csproj", "{51F32431-17E2-4AAE-8A24-DFE99DA3C9DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCA34493-72F8-452A-8711-339ACF317E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCA34493-72F8-452A-8711-339ACF317E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCA34493-72F8-452A-8711-339ACF317E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCA34493-72F8-452A-8711-339ACF317E1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91E4D01A-6388-4B02-A8DC-ADDA7810F492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91E4D01A-6388-4B02-A8DC-ADDA7810F492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91E4D01A-6388-4B02-A8DC-ADDA7810F492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91E4D01A-6388-4B02-A8DC-ADDA7810F492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51F32431-17E2-4AAE-8A24-DFE99DA3C9DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51F32431-17E2-4AAE-8A24-DFE99DA3C9DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51F32431-17E2-4AAE-8A24-DFE99DA3C9DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51F32431-17E2-4AAE-8A24-DFE99DA3C9DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

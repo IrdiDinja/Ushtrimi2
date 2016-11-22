@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<email>
+  <to>irdi.dinja2@fshnstudent.info</to>
+  <from>dinja.irdi@gmail.com</from>
+  <subject>Test</subject>
+  <body>mesazh shebull!</body>
+</email>
